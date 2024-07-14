@@ -103,6 +103,34 @@ main > section {
 #quick-list {
   font-weight: 500;
 }
+/* some fact related styles */
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact-card {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  /* displa-flex */
+  align-items: center;
+  justify-content: center;
+}
+.fact-number {
+  font-size: 2.8rem;
+  margin: 5px 0 10px 0;
+  font-weight: 600;
+}
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.fact-description {
+  max-width: 540px;
+}
 
 /* Responsive Media Query */
 /* small size Device*/
